@@ -1,0 +1,15 @@
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.exe
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.deps.json
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.runtimeconfig.json
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.runtimeconfig.dev.json
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.dll
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\bin\Debug\netcoreapp3.1\Feladat0407.pdb
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.csprojAssemblyReference.cache
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.Form1.resources
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.csproj.GenerateResource.cache
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.AssemblyInfoInputs.cache
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.AssemblyInfo.cs
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.csproj.CoreCompileInputs.cache
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.dll
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.pdb
+D:\SULI\PROGRAMOZAS\VIsualStudio\Feladat0407\Feladat0407\obj\Debug\netcoreapp3.1\Feladat0407.genruntimeconfig.cache
