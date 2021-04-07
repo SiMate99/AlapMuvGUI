@@ -30,31 +30,31 @@ namespace Feladat0407
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.tbEredmeny = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.btEllenoriz = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbFeladat = new System.Windows.Forms.TextBox();
             this.lbStatisztika = new System.Windows.Forms.ListBox();
             this.cbMuveletek = new System.Windows.Forms.ComboBox();
             this.btMegoldas = new System.Windows.Forms.Button();
             this.btUjKerdes = new System.Windows.Forms.Button();
             this.lKerdes = new System.Windows.Forms.Label();
             this.tbValasz = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.tbEredmeny);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.btEllenoriz);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.tbFeladat);
             this.panel1.Controls.Add(this.lbStatisztika);
             this.panel1.Controls.Add(this.cbMuveletek);
             this.panel1.Controls.Add(this.btMegoldas);
@@ -66,6 +66,24 @@ namespace Feladat0407
             this.panel1.Size = new System.Drawing.Size(322, 307);
             this.panel1.TabIndex = 0;
             // 
+            // tbEredmeny
+            // 
+            this.tbEredmeny.Location = new System.Drawing.Point(194, 88);
+            this.tbEredmeny.Name = "tbEredmeny";
+            this.tbEredmeny.ReadOnly = true;
+            this.tbEredmeny.Size = new System.Drawing.Size(120, 23);
+            this.tbEredmeny.TabIndex = 17;
+            this.tbEredmeny.TextChanged += new System.EventHandler(this.tbEredmeny_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(193, 70);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(63, 15);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Eredmény:";
+            // 
             // btEllenoriz
             // 
             this.btEllenoriz.Location = new System.Drawing.Point(8, 117);
@@ -74,6 +92,7 @@ namespace Feladat0407
             this.btEllenoriz.TabIndex = 15;
             this.btEllenoriz.Text = "Ellenőriz";
             this.btEllenoriz.UseVisualStyleBackColor = true;
+            this.btEllenoriz.Click += new System.EventHandler(this.btEllenoriz_Click);
             // 
             // label3
             // 
@@ -102,13 +121,13 @@ namespace Feladat0407
             this.label1.TabIndex = 12;
             this.label1.Text = "Válaszod:";
             // 
-            // textBox1
+            // tbFeladat
             // 
-            this.textBox1.Location = new System.Drawing.Point(9, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(120, 23);
-            this.textBox1.TabIndex = 11;
+            this.tbFeladat.Location = new System.Drawing.Point(9, 31);
+            this.tbFeladat.Name = "tbFeladat";
+            this.tbFeladat.ReadOnly = true;
+            this.tbFeladat.Size = new System.Drawing.Size(120, 23);
+            this.tbFeladat.TabIndex = 11;
             // 
             // lbStatisztika
             // 
@@ -155,6 +174,7 @@ namespace Feladat0407
             this.btUjKerdes.TabIndex = 6;
             this.btUjKerdes.Text = "Új Kérdés";
             this.btUjKerdes.UseVisualStyleBackColor = true;
+            this.btUjKerdes.Click += new System.EventHandler(this.btUjKerdes_Click);
             // 
             // lKerdes
             // 
@@ -171,23 +191,6 @@ namespace Feladat0407
             this.tbValasz.Name = "tbValasz";
             this.tbValasz.Size = new System.Drawing.Size(121, 23);
             this.tbValasz.TabIndex = 3;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(193, 70);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 15);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Eredmény:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(194, 88);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(120, 23);
-            this.textBox2.TabIndex = 17;
             // 
             // Form1
             // 
@@ -215,9 +218,9 @@ namespace Feladat0407
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbFeladat;
         private System.Windows.Forms.ListBox lbStatisztika;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbEredmeny;
         private System.Windows.Forms.Label label4;
     }
 }
